@@ -1,0 +1,108 @@
+# ============================
+# Unreal Engine
+# ============================
+
+# Build results (never commit)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Keep Build scripts but ignore generated build data
+!Build/*.cs
+!Build/*.target
+Build/**/FileOpenOrder/
+Build/**/FileOpenOrder.log
+
+# ============================
+# IDE / Editor files
+# ============================
+
+# VS / Rider / IDE
+.vs/
+.vscode/
+.idea/
+
+# Rider
+*.sln.DotSettings.user
+
+# Visual Studio
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+
+# ============================
+# Unreal auto-generated files
+# ============================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Crash reports
+CrashReportClient/
+
+# ============================
+# Packaging / platform outputs
+# ============================
+
+*.apk
+*.aab
+*.obb
+
+# Android / Quest
+Android_ASTC/
+Android_ETC2/
+Android_Multi/
+Android/
+.gradle/
+local.properties
+
+# ============================
+# Meta XR / Oculus
+# ============================
+
+Oculus/
+OculusVR/
+MetaXR/
+
+# ============================
+# User-specific config (do not commit)
+# ============================
+
+Saved/Config/WindowsEditor/
+Saved/Config/Windows/
+
+# ============================
+# OS junk
+# ============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Keep these (IMPORTANT)
+# ============================
+
+# Core project structure
+!Config/
+!Content/
+!Source/
+!Plugins/
+!*.uproject
+
+# Keep plugin sources (but not their binaries)
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
